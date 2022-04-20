@@ -5,17 +5,26 @@
     <meta charset="UTF-8" />
     <title>Welcome to Kokoa Clone</title>
   </head>
+  <style>
+    body{
+      background-image: url("https://scontent-gmp1-1.xx.fbcdn.net/v/t1.18169-9/18813911_1867339410197110_8112220456481354067_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=730e14&_nc_ohc=yMETPHiDwCgAX8vW8Z6&_nc_ht=scontent-gmp1-1.xx&oh=00_AT-pJQNLxTcmCjW_aY6XhFJNtkmqiwcuZED_cGX94cAKeQ&oe=628090C4");
+      height: 100vh;
+      width: 100vw;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  </style>
  <body>
     <div class="status-bar">
-      <div class="status-bar__column">
+      <div class="status-bar__column login-status-bar__column">
         <span>No Service</span>
         <i class="fa-solid fa-wifi"></i>
         </svg>
       </div>
-      <div class="status-bar__column">
+      <div class="status-bar__column login-status-bar__column">
         <span>18:43</span>
       </div>
-      <div class="status-bar__column">
+      <div class="status-bar__column login-status-bar__column">
         <span>100%</span>
         <i class="fa-solid fa-battery-full fa-lg"></i>
         <i class="fa-solid fa-bolt-lightning"></i>
@@ -23,23 +32,22 @@
     </div>
 
     <header class="welcome-header">
-        <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+        <h1 class="welcome-header__title">Welcome to Clash Royale</h1>
         <p class="welcome-header__text">
-            if you have a Kokoa Account, log in with your email or phone number.
+            if you have a Clash Royale Account, log in with your email or phone number.
         </p>
     </header>
 
     <form action="friends.html" method="get" id="login-form">
-        <input name="username" type="text" placeholder="Email or phone number" />
-        <input name="password" type="password" placeholder="Password" />
-        <input type="submit" value="Log in" />
+        <input class="login-form__email" name="username" type="text" placeholder="Email or phone number" />
+        <input class="login-form__password" name="password" type="password" placeholder="Password" />
+        <input class="login-form__login" type="submit" value="Log in" />
         <a href="#">Find Kokoa Account or Password</a>
     </form>
 
     <div id="no-mobile">
       <span>Your screen is too big 😭</span>
     </div>
-
     <script
       src="https://kit.fontawesome.com/3192a0d6b6.js"
       crossorigin="anonymous"

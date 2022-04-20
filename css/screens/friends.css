@@ -41,16 +41,20 @@
   }
 }
 
-#splash-screen {
+/* #splash-screen {
   background-color: var(--yellow);
   position: absolute;
   height: 100vh;
   width: 100vw;
   top: 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 132px;
+  font-size: 30px;
   animation: hideSplashScreen 0.4s ease-in-out forwards;
   animation-delay: 2s;
-}
+  background-image: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxNzEwMTFfMTIg%2FMDAxNTA3NjgzOTkxMjY1.hTIoSr9jd1Vv94zeMNFvu1cxZDDMe3vv_s1smHNJQFog.ynwqnJaxrVm2ui30FIrInsZ6zI7rANBhT2K1aXRzwo4g.JPEG.qazwsx2002%2F%25BB%25E7%25C1%25F8_1_%25C5%25AC%25B7%25A1%25BD%25C3_%25B7%25CE%25BE%25E2_%25B4%25EB%25B1%25D4%25B8%25F0_%25BE%25F7%25B5%25A5%25C0%25CC%25C6%25AE.jpg&type=a340");
+  background-size: cover;
+  background-repeat: no-repeat;
+} */

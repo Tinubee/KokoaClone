@@ -16,6 +16,7 @@
   position: relative;
 }
 
+.morescreen-header__point-dot,
 .screen-header__point-dot {
   background-color: tomato;
   width: 5px;
@@ -27,8 +28,13 @@
   color: white;
   font-weight: 600;
   position: absolute;
-  left: 65px;
   bottom: 20px;
+}
+.screen-header__point-dot {
+  left: 65px;
+}
+.morescreen-header__point-dot {
+  left: 110px;
 }
 
 @keyframes rotateCog {
